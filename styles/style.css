@@ -50,7 +50,7 @@ body {
     background-size: cover;
     margin: 0 auto;
     margin-top: 35px;
-    margin-bottom: 74px;
+    margin-bottom: 154px;
 }
 
 .hero {
@@ -93,18 +93,125 @@ body {
     text-align: center;
 }
 
-.hero-content button{
+.hero-content button {
     border-radius: 8px;
 
-background: rgb(6, 10, 19);
-color: rgb(255, 255, 255);
-font-size: 15px;
-font-weight: 600;
+    background: rgb(6, 10, 19);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
 
 }
 
-main{
+main {
     width: 1140px;
     margin: 0 auto;
-    border: 2px solid red;
 }
+
+/* why-web-dev section */
+.why-web-dev {
+    width: 1140px;
+    height: 1395px;
+    border-radius: 16px;
+    /* background: rgba(13, 19, 33, 0.02); */
+    margin-bottom: 88px;
+}
+
+.why-container {
+    width: 946px;
+    height: 1235px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.why-content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+    margin-top: 50px;
+}
+
+.why-content-title h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.why-content-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* card */
+.card-container {
+    width: 946px;
+    height: 1072px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.card-items {
+    width: 946px;
+    height: 336px;
+    padding: 48px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item-title {
+    width: 477px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 35px;
+}
+
+.card-item-title h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 16px;
+
+}
+
+.card-item-title p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.card-item-title .card-1 .btn {
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
