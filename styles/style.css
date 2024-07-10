@@ -65,7 +65,7 @@ body {
 .banner-container {
     max-width: 1440px;
     min-height: 652px;
-    background-image: url("../images/Hero-bg.png");
+    background-image: url("../assets/Hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -405,7 +405,7 @@ main {
     width: 1140px;
     height: 313px;
     margin-top: 49px;
-    background-image: url("../images/handshake.jpg");
+    background-image: url("../assets/handshake.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
