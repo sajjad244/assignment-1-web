@@ -20,6 +20,27 @@ body {
     opacity: 0.8;
 }
 
+.section-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
 /* navbar */
 .navbar {
     display: flex;
@@ -113,7 +134,7 @@ main {
     width: 1140px;
     height: 1395px;
     border-radius: 16px;
-    /* background: rgba(13, 19, 33, 0.02); */
+    background: rgba(13, 19, 33, 0.02);
     margin-bottom: 88px;
 }
 
@@ -131,6 +152,7 @@ main {
     align-items: center;
     margin-bottom: 48px;
     margin-top: 50px;
+    background: white;
 }
 
 .why-content-title h1 {
@@ -171,6 +193,7 @@ main {
     padding: 48px 48px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 6px 10px 10px white;
 }
 
 .card-item-title {
@@ -213,5 +236,116 @@ main {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+}
+
+/* inspiration-container style */
+.inspiration-container {
+    width: 1140px;
+    height: 775px;
+}
+
+.inspiration-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.inspiration-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.youtube-vdo {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    margin-top: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+/* skills style */
+.about-skills {
+    width: 1140px;
+    height: 460px;
+    margin-top: 151px;
+    margin-bottom: 111px;
+}
+
+.skills h1 {
+    margin-bottom: 24px;
+}
+
+.skills p {
+    margin-bottom: 48px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+.skill-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 8px;
+margin-top: 24px;
+}
+.skill-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-bottom: 24px;
+}
+.skill-more{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.skill {
+    padding: 40px;
+    margin-top: 48px;
+    
+}
+
+#first {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+#second {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+#theard{
+    border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
 }
 
